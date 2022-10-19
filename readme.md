@@ -1,9 +1,9 @@
 # How to deploy NodeJs Application on EC2 instance using GitHub actions
 
-In the previous article, we learned how to deploy React Application using GitHub Action.
+In the [previous article](https://github.com/yogi-dad/github-actions-deploy-2-s3), we learned how to deploy React Application using GitHub Action.
 Since most applications have backend and NodeJs is one of the popular frameworks for developing backend for application.
 So we will learn
-how we can deploy NodeJs based application on AWS EC2 instane using GitHub Actions and automate our deployment.
+how we can deploy NodeJs based application on AWS EC2 instance using GitHub Actions and automate our deployment.
 
 Let's start with installing nodejs on ec2 instance by executing the following in your terminal
 ```
@@ -83,6 +83,6 @@ sudo ln -s "$NVM_DIR/versions/node/$(node version)/bin/npm" "/usr/local/bin/npm"
 sudo ln -s "$NVM_DIR/versions/node/$(node version)/bin/pm2" "/usr/local/bin/pm2"
 ```
 
-That's it. once its done you can commit the workflow file and test your deployment.
+That's it. once it's done, you can commit the workflow file and test your deployment.
 
 Thanks for reading and Happy deployment!
